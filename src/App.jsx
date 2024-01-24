@@ -1,12 +1,17 @@
 import './App.css'
+import ExpressionForm from './components/ExpressionForm'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   
   return (
     <>
-   <h1>Set up</h1>
+   <ExpressionForm />
     </>
   )
 }
 
 export default App
+
+
+
